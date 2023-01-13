@@ -26,7 +26,7 @@ npm start
 
 ## 结构
 
-
+<pre>
 vite.config.js | 工程化配置
 tsconfig.json | typescript配置
 .postcssrc | postcss配置
@@ -80,3 +80,4 @@ src | 源文件
 index.html | 模版文件
 App.vue | 主模版
 main.ts | 主文件
+</pre>
