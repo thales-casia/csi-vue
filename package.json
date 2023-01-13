@@ -1,0 +1,32 @@
+{
+  "name": "CSI",
+  "version": "1.0.0",
+  "description": "Cyber-Physical Social Intelligence web site front end",
+  "dependencies": {
+    "pinia": "^2.0.28",
+    "vue": "^3.2.45",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "sass": "^1.56.2",
+    "sass-loader": "^13.2.0",
+    "typescript": "^4.9.4",
+    "vite": "^4.0.1",
+    "vue-tsc": "^1.0.13"
+  },
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "tar": "tar zcvf web.tar.gz dist",
+    "serve": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:thales-casia/csi-vue.git"
+  },
+  "author": "Thales",
+  "license": "ISC"
+}
