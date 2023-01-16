@@ -18,10 +18,23 @@ npm start
 - Pinia
 - scss
 
+> 使用vue3框架，紧贴时代
 > 使用vite2，编译更快
 > 使用TS技术，更好的规范代码
 > 使用pinia完成代码分离
 > 使用scss规范样式
+> 尽量使用语义化标签，方便维护
+
+## 相关文档
+
+
+[开发规范](./docs/guide.md)
+
+
+[语义化](./docs/semantics.md)
+
+
+[eslint解析](./docs/eslint.md)
 
 
 ## 结构
